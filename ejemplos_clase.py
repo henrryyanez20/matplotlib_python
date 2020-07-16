@@ -173,7 +173,7 @@ def line_plot():
     # Demostración de uso de line plot con una sola variable
     # Generaremos la función y=X^2 (x al cuadradro)
     # pero solo graficaremos los valores de "Y" indepedientes de "X"
-    x = range(-10, 11, 2)
+    x = list(range(-10, 11, 2))
     y = [i**2 for i in x]
 
     fig = plt.figure()
